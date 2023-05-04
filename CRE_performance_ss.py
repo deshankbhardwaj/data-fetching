@@ -10,9 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.action_chains import ActionChains
-import tkinter as tk
-from tkinter import filedialog
-from pathlib import Path
+
 
 PATH = "chromedriver.exe"
 driver = webdriver.Chrome(PATH)
